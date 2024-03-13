@@ -32,8 +32,6 @@ SingleFileEncryptDecrypt / SFED:
 
 ```
 g++ tools/SingleFileEncryptDecrypt.cpp include/aes/aes.o -o tools/SFED  -static
-g++ -o tools/SFED tools/SingleFileEncryptDecrypt.cpp -Iinclude -Llib -laes -static
-
 ```
 
 GenerateHeader:
